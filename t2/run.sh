@@ -1,0 +1,2 @@
+javac -cp jboss-javassist-javassist-700be6f/javassist.jar -Xlint:deprecation DynamicClassCreation.java
+java --illegal-access=warn -cp jboss-javassist-javassist-700be6f/javassist.jar:. DynamicClassCreation
